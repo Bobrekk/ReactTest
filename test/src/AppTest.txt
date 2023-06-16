@@ -1,0 +1,109 @@
+import { cleanup, render, screen } from '@testing-library/react';
+import App from './App'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*beforeAll(() => {
+    console.log("Before All")
+})
+
+beforeEach(() => {
+    render(<App/>);
+    console.log("Before Each")
+})
+
+afterAll(() => {
+    console.log("After All")
+})
+
+afterEach(() => {
+    console.log("After Each")
+    cleanup();
+})*/
+
+/*test("Header renders correctly", () => {
+
+    const headerEl = screen.getByText(/burak/i);
+    
+    expect(headerEl).toBeInTheDocument();
+    expect(headerEl).toHaveTextContent("Burak");
+    
+})
+    
+
+test('Disabled Button Test', () => {
+
+    const buttonEl = screen.getByTestId('btnDisabled')
+    expect(buttonEl).toHaveTextContent('Disabled');
+    expect(buttonEl).toBeDisabled();
+})
+
+test('Enabled Button Test', () => {
+
+    const buttonEl = screen.getByTestId('btnEnabled')
+    expect(buttonEl).toHaveTextContent('Enabled');
+    expect(buttonEl).not.toBeDisabled();
+})
+
+test('Green Element Renders Correctly', () => {
+
+    const greenElement = screen.getByText(/yeşil renk/i);
+    
+    expect(greenElement).toBeInTheDocument();
+    expect(greenElement).toHaveTextContent('Yeşil Renk');
+    expect(greenElement).toHaveClass('green');
+})*/
+    
+    
+    
+    
+    
+    
+    
+    
+    /*let customDiv = document.createElement('div');
+    customDiv.className = 'custom';
+    const { debug, container} = render(
+        <div className='dd'>
+            Burak
+            <h1>ss</h1>
+        </div>,
+        {
+            container:  document.body.appendChild(customDiv),
+        }
+    );
+
+    console.log(container.firstChild.textContent);
+    //expect(container.firstChild).toHaveTextContent("Burak")
+    screen.debug();*/
